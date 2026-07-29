@@ -1,0 +1,7 @@
+anthropic
+dashscope
+requests
+pyyaml
+PyMuPDF
+beautifulsoup4
+python-dotenv

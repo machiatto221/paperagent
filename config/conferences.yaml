@@ -1,0 +1,26 @@
+top_venues:
+  weight: 10
+  names:
+    - CVPR
+    - ICCV
+    - ECCV
+    - NeurIPS
+    - ICML
+    - ICLR
+    - ACL
+    - EMNLP
+    - NAACL
+    - AAAI
+    - IJCAI
+    - SIGGRAPH
+    - TPAMI
+    - IJCV
+    - TIP
+
+# 用于匹配论文中提到的接收信息，如 "Accepted at CVPR 2026"
+match_patterns:
+  - "accepted at {venue}"
+  - "accepted to {venue}"
+  - "accepted by {venue}"
+  - "{venue} 2025"
+  - "{venue} 2026"

@@ -1,0 +1,67 @@
+tier1:
+  weight: 10
+  names:
+    - ByteDance
+    - Alibaba
+    - Tencent
+    - Google
+    - Google DeepMind
+    - DeepMind
+    - OpenAI
+    - Meta AI
+    - Meta FAIR
+    - Microsoft Research
+    - Apple
+    - NVIDIA
+    - Stanford
+    - MIT
+    - CMU
+    - Carnegie Mellon
+    - UC Berkeley
+    - Tsinghua
+    - Peking University
+    - Beijing Institute of Technology
+    - Zhejiang University
+    - Shanghai AI Laboratory
+    - BAAI
+
+tier2:
+  weight: 6
+  names:
+    - Amazon
+    - Baidu
+    - Huawei
+    - SenseTime
+    - Megvii
+    - Princeton
+    - Cornell
+    - University of Washington
+    - ETH Zurich
+    - University of Oxford
+    - University of Cambridge
+    - KAIST
+    - University of Tokyo
+    - Fudan University
+    - Nanjing University
+    - HKUST
+    - CUHK
+    - HKU
+    - NUS
+    - Nanyang Technological University
+
+known_authors:
+  weight: 8
+  names:
+    - Kaiming He
+    - Yann LeCun
+    - Fei-Fei Li
+    - Jitendra Malik
+    - Ross Girshick
+    - Deva Ramanan
+    - Saining Xie
+    - Chunyuan Li
+    - Haotian Liu
+    - Junnan Li
+    - Wenhui Wang
+    - Zhe Gan
+    - Liunian Harold Li

@@ -1,0 +1,102 @@
+# 带权重的关键词配置
+# weight 越高，匹配到的论文在质量打分中加分越多
+# 你最感兴趣的方向给高权重，一般关注的给低权重
+
+whitelist:
+  # === 核心方向 (高权重) ===
+  - keyword: native multimodal
+    weight: 10
+  - keyword: self-reward
+    weight: 10
+  - keyword: self-play
+    weight: 10
+  - keyword: agentic RL
+    weight: 10
+  - keyword: OVOD
+    weight: 6
+  - keyword: open vocabulary object detection
+    weight: 6
+  - keyword: multimodal agent
+    weight: 10
+  - keyword: agentic
+    weight: 8
+  - keyword: GRPO
+    weight: 10
+  - keyword: self-evolving
+    weight: 10
+
+  # === 重点关注 (中高权重) ===
+  - keyword: multimodal large model
+    weight: 10
+  - keyword: multimodal LLM
+    weight: 10
+  - keyword: MLLM
+    weight: 8
+  - keyword: vision language model
+    weight: 6
+  - keyword: VLM
+    weight: 6
+  - keyword: omni-modal
+    weight: 6
+  - keyword: any-to-any
+    weight: 7
+
+  # === 常规关注 (中权重) ===
+  - keyword: LLM
+    weight: 4
+  - keyword: large language model
+    weight: 4
+  - keyword: SFT
+    weight: 5
+  - keyword: supervised fine-tuning
+    weight: 5
+  - keyword: RLHF
+    weight: 6
+  - keyword: reinforcement learning from human feedback
+    weight: 6
+  - keyword: instruction tuning
+    weight: 5
+  - keyword: visual grounding
+    weight: 5
+  - keyword: visual question answering
+    weight: 5
+  - keyword: VQA
+    weight: 5
+  - keyword: image-text
+    weight: 4
+  - keyword: video understanding
+    weight: 5
+
+  # === 一般关注 (低权重) ===
+  - keyword: chain-of-thought
+    weight: 3
+  - keyword: tool use
+    weight: 3
+  - keyword: function calling
+    weight: 3
+  - keyword: RAG
+    weight: 3
+  - keyword: retrieval augmented generation
+    weight: 3
+  - keyword: mixture of experts
+    weight: 3
+  - keyword: MoE
+    weight: 3
+  - keyword: diffusion
+    weight: 2
+  - keyword: text-to-image
+    weight: 2
+  - keyword: image generation
+    weight: 2
+
+blacklist:
+  - quantum computing
+  - bioinformatics
+  - protein folding
+  - drug discovery
+  - climate modeling
+  - seismology
+  - genomics
+  - fluid dynamics
+  - astrophysics
+  - material science
